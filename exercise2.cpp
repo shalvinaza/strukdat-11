@@ -141,7 +141,7 @@ main (){
         cout << "6. Level\n";
         cout << "7. Anak\n";
         cout << "8. Keluar\n";
-        cout << "Pilih menu (1-10) : "; cin >> menu;
+        cout << "Pilih menu (1-8) : "; cin >> menu;
         system("cls");
         if (menu < 1 || menu >8)
             goto start;
